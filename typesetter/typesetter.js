@@ -236,7 +236,7 @@ var smallcapsReplacement = function() {
 				
 			} // END foundObjects = null test
 	
-		if (((foundObjects.length)-1)==(a+1)) { 
+		if (foundObjects.length == a+1) { 
 		// When all ".typo"-objects are tested we are calling the charReplacements-function that checks and replaces special-charachters.
 		charReplacements();
 			}
