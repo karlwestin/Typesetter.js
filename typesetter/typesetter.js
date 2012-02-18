@@ -156,7 +156,7 @@ var smallcapsReplacement = function() {
 							
 							if ((unicodeValue == 8217) || (unicodeValue == 45) || (unicodeValue == 58)) { // APOSTROPHE-TEST This is a test/exception that is made if the word that is beeing tested contains all uppercase letters AND an apostrophe or huphen or such. If it does then it shall be traeted like a "all-caps"-word. If the word contains all caps and apostrophe/huphen BUT ands with lowercase letters then the word shall not be treated as an "all-caps"-word. This is a decision made by me cos there are no good/clear rules in typography on how to handle such words.
 							// 8217 = Apostrophe
-							// 45 = en-dash
+							// 45 = en-dash (45 is hyphen, en-dash is 8211)
 							// 58 = colon
 							
 								capsIndex[y] = i; // capsIndex is assigned the array-index of the word that is beeing tested.
